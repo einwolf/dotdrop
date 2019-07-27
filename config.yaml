@@ -27,3 +27,10 @@ profiles:
     - f_bashrc
     - f_bash_logout
     - f_inputrc
+  duality.ioncollector.locallab:
+    dotfiles:
+    - f_nanorc
+    - f_bash_profile
+    - f_bashrc
+    - f_bash_logout
+    - f_inputrc
