@@ -22,6 +22,9 @@ dotfiles:
   f_dir_colors:
     src: dir_colors
     dst: ~/.dir_colors
+  f_config:
+    src: ssh/config
+    dst: ~/.ssh/config
 profiles:
   foxbagel.localdomain:
     dotfiles:
@@ -31,6 +34,7 @@ profiles:
     - f_bash_logout
     - f_inputrc
     - f_dir_colors
+    - f_config
   duality.ioncollector.locallab:
     dotfiles:
     - f_nanorc
