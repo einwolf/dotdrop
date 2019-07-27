@@ -1,0 +1,30 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+export PATH
+
+export PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\$ "
+export EDITOR=nano
+export HISTCONTROL=ignoreboth
+
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+alias dotdrop='~/dotdrop-files/dotdrop.sh --cfg=~/dotdrop-files/config.yaml'
+
+# dircolors
+eval `dircolors ~/.dir_colors`
+
+# ssh keys
+eval `ssh-agent` 1>/dev/null 2>&1
+ssh-add ~/.ssh/id_ed25519 1>/dev/null 2>&1
+ssh-add ~/sshkeys/github/einwolf_ed25519 1>/dev/null 2>&1
+ssh-add ~/sshkeys/gitlab/einwolf_ed25519 1>/dev/null 2>&1

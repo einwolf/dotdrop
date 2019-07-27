@@ -1,0 +1,10 @@
+set autoindent
+unset backup
+set linenumbers
+set nowrap
+set morespace
+set noconvert
+#set mouse
+set tabstospaces
+set tabsize 4
+set trimblanks

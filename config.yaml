@@ -2,5 +2,28 @@ config:
   backup: true
   create: true
   dotpath: dotfiles
+  banner: false
 dotfiles:
+  f_nanorc:
+    src: nanorc
+    dst: ~/.nanorc
+  f_bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_bash_logout:
+    src: bash_logout
+    dst: ~/.bash_logout
+  f_inputrc:
+    src: inputrc
+    dst: ~/.inputrc
 profiles:
+  foxbagel.localdomain:
+    dotfiles:
+    - f_nanorc
+    - f_bash_profile
+    - f_bashrc
+    - f_bash_logout
+    - f_inputrc
