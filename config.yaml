@@ -36,6 +36,15 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
+  strongbox.localdomain:
+    dotfiles:
+    - f_nanorc
+    - f_bash_profile
+    - f_bashrc
+    - f_bash_logout
+    - f_inputrc
+    - f_dir_colors
+    - f_ssh_config
   duality.ioncollector.locallab:
     dotfiles:
     - f_nanorc
