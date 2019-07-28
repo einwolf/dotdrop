@@ -3,6 +3,7 @@ config:
   create: true
   dotpath: dotfiles
   banner: false
+  longkey: true
 dotfiles:
   f_nanorc:
     src: nanorc
@@ -22,7 +23,7 @@ dotfiles:
   f_dir_colors:
     src: dir_colors
     dst: ~/.dir_colors
-  f_config:
+  f_ssh_config:
     src: ssh/config
     dst: ~/.ssh/config
 profiles:
@@ -34,7 +35,7 @@ profiles:
     - f_bash_logout
     - f_inputrc
     - f_dir_colors
-    - f_config
+    - f_ssh_config
   duality.ioncollector.locallab:
     dotfiles:
     - f_nanorc
@@ -43,3 +44,4 @@ profiles:
     - f_bash_logout
     - f_inputrc
     - f_dir_colors
+    - f_ssh_config
