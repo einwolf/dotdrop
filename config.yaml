@@ -27,7 +27,7 @@ dotfiles:
     src: ssh/config
     dst: ~/.ssh/config
 profiles:
-  foxbagel.localdomain:
+  foxbagel.ioncollector.culab:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -36,7 +36,16 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  duality.ioncollector.locallab:
+  duality.ioncollector.culab:
+    dotfiles:
+    - f_nanorc
+    - f_bash_profile
+    - f_bashrc
+    - f_bash_logout
+    - f_inputrc
+    - f_dir_colors
+    - f_ssh_config
+  spec360sl.ioncollector.culab:
     dotfiles:
     - f_nanorc
     - f_bash_profile
