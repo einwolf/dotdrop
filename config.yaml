@@ -54,7 +54,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  spec360sl.ioncollector.culab:
+  everwind.ioncollector.culab:
     dotfiles:
     - f_nanorc
     - f_bash_profile
