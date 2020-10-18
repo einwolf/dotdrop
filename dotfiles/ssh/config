@@ -7,4 +7,4 @@ Host github.com
     ForwardAgent yes
     ForwardX11 no
     ForwardX11Trusted no
-    IdentityFile ~/sshkeys/github/einwolf_ed25519
+    IdentityFile ~/sshkeys/github/einwolf_github_ed25519
