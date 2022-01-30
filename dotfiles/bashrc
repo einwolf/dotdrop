@@ -46,7 +46,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-alias dotdrop='~/dotdrop-files/dotdrop.sh --cfg=~/dotdrop-files/config.yaml'
+alias dotdrop='~/dotdrop/dotdrop.sh --cfg=~/dotdrop/config.yaml'
 
 # dircolors
 eval `dircolors ~/.dir_colors`

@@ -27,7 +27,7 @@ dotfiles:
     src: ssh/config
     dst: ~/.ssh/config
 profiles:
-  strongbox.labin.ioncollector.com:
+  strongbox.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -36,7 +36,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  arcnova.labin.ioncollector.com:
+  arcnova.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -45,7 +45,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  duality.labin.ioncollector.com:
+  axiom.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -54,7 +54,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  everwind.labin.ioncollector.com:
+  duality.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -63,7 +63,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  direflare.labin.ioncollector.com:
+  radiance.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -72,7 +72,7 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  xporta.labin.ioncollector.com:
+  direflare.ioncollector.com:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -81,3 +81,4 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
+
