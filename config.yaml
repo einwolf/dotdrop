@@ -26,6 +26,7 @@ dotfiles:
   f_ssh_config:
     src: ssh/config
     dst: ~/.ssh/config
+    chmod: '644'
 profiles:
   strongbox.ioncollector.com:
     dotfiles:

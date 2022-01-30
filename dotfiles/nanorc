@@ -2,7 +2,7 @@ set autoindent
 unset backup
 set linenumbers
 set nowrap
-set morespace
+#set morespace
 set noconvert
 #set mouse
 set tabstospaces
