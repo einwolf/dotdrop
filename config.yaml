@@ -27,8 +27,11 @@ dotfiles:
     src: ssh/config
     dst: ~/.ssh/config
     chmod: '644'
+  f_config_yapf_style:
+    src: config/yapf/style
+    dst: ~/.config/yapf/style
 profiles:
-  strongbox.ioncollector.com:
+  default:
     dotfiles:
     - f_nanorc
     - f_bash_profile
@@ -37,49 +40,28 @@ profiles:
     - f_inputrc
     - f_dir_colors
     - f_ssh_config
-  arcnova.ioncollector.com:
-    dotfiles:
-    - f_nanorc
-    - f_bash_profile
-    - f_bashrc
-    - f_bash_logout
-    - f_inputrc
-    - f_dir_colors
-    - f_ssh_config
-  axiom.ioncollector.com:
-    dotfiles:
-    - f_nanorc
-    - f_bash_profile
-    - f_bashrc
-    - f_bash_logout
-    - f_inputrc
-    - f_dir_colors
-    - f_ssh_config
-  duality.ioncollector.com:
-    dotfiles:
-    - f_nanorc
-    - f_bash_profile
-    - f_bashrc
-    - f_bash_logout
-    - f_inputrc
-    - f_dir_colors
-    - f_ssh_config
-  radiance.ioncollector.com:
-    dotfiles:
-    - f_nanorc
-    - f_bash_profile
-    - f_bashrc
-    - f_bash_logout
-    - f_inputrc
-    - f_dir_colors
-    - f_ssh_config
-  direflare.ioncollector.com:
-    dotfiles:
-    - f_nanorc
-    - f_bash_profile
-    - f_bashrc
-    - f_bash_logout
-    - f_inputrc
-    - f_dir_colors
-    - f_ssh_config
-
+    - f_config_yapf_style
+  strongbox:
+    include:
+    - default
+  arcnova:
+    include:
+    - default
+  axiom:
+    include:
+    - default
+  direflare:
+    include:
+    - default
+  duality:
+    include:
+    - default
+  radiance:
+    include:
+    - default
+  ZephyrusG14:
+    include:
+    - default
+  ZephyrusG15:
+    include:
+    - default
