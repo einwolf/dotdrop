@@ -8,3 +8,7 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/bluefield/.local/share/JetBrains/Toolbox/scripts"

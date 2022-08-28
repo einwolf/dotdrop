@@ -8,3 +8,18 @@ Host github.com
     ForwardX11 no
     ForwardX11Trusted no
     IdentityFile ~/sshkeys/github/einwolf_github_ed25519
+
+Host arcnova
+
+Host axiom
+
+Host duality
+
+Host horizon
+
+Host nodebox
+
+Host radiance
+
+Host pxe1
+#    User localsysadmin
