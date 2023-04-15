@@ -29,11 +29,20 @@ if [ -f "${HOME}/.config/dotdrop" ]; then
     . "${HOME}/.config/dotdrop"
 fi
 
-
+# Specific tools
 if [ -e "/opt/ovftool/ovftool" ]
 then
     PATH="/opt/ovftool:$PATH"
 fi
+
+if [ -e "/usr/local/cuda-12" ]
+then
+    PATH="/usr/local/cuda-12/bin:$PATH"
+elif [ -e "/usr/local/cuda-11" ]
+then
+    PATH="/usr/local/cuda-11/bin:$PATH"
+fi
+
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
