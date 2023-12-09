@@ -68,3 +68,6 @@ profiles:
   ZephyrusG15:
     include:
     - default
+  tvatower:
+    include:
+    - default
