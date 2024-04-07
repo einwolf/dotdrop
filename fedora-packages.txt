@@ -1,1 +1,2 @@
-dnf install -y python3-docopt python3-ruamel-yaml python3-jinja2 python3-jinja2-cli
+dnf install -y python3-distro python3-docopt python3-ruamel-yaml python3-jinja2 python3-jinja2-cli python3-toml python3-tomli-w
+

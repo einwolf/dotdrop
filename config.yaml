@@ -53,7 +53,13 @@ profiles:
   direflare:
     include:
     - default
-  duality:
+  foxfire:
+    include:
+    - default
+  foxlight:
+    include:
+    - default
+  foxsparks:
     include:
     - default
   horizon:
