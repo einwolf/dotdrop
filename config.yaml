@@ -53,13 +53,19 @@ profiles:
   direflare:
     include:
     - default
+  flywheel:
+    include:
+    - default
   foxfire:
+    include:
+    - default
+  foxember:
     include:
     - default
   foxlight:
     include:
     - default
-  foxsparks:
+  foxglow:
     include:
     - default
   horizon:
@@ -77,3 +83,4 @@ profiles:
   tvatower:
     include:
     - default
+
