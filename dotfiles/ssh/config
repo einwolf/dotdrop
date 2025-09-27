@@ -9,7 +9,7 @@ Host github.com
     ForwardX11Trusted no
     IdentityFile ~/sshkeys/github/einwolf_github_ed25519
 
-Host arcnova
+Host strongbox
 
 Host axiom
 
@@ -22,4 +22,8 @@ Host nodebox
 Host radiance
 
 Host pxe1
-#    User localsysadmin
+    User localsysadmin
+
+Host pxefiles1
+    User localsysadmin
+

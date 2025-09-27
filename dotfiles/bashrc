@@ -35,7 +35,10 @@ then
     PATH="/opt/ovftool:$PATH"
 fi
 
-if [ -e "/usr/local/cuda-12" ]
+if [ -e "/usr/local/cuda-13" ]
+then
+    PATH="/usr/local/cuda-13/bin:$PATH"
+elif [ -e "/usr/local/cuda-12" ]
 then
     PATH="/usr/local/cuda-12/bin:$PATH"
 elif [ -e "/usr/local/cuda-11" ]
@@ -85,3 +88,4 @@ if [ -d "${HOME}/sshkeys" ]
 then
     ssh-add ~/sshkeys/github/einwolf_ed25519 1>/dev/null 2>&1
 fi
+

@@ -1,8 +1,11 @@
 config:
   backup: true
+  banner: false
   create: true
   dotpath: dotfiles
-  banner: false
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
   longkey: true
 dotfiles:
   f_nanorc:
@@ -44,16 +47,10 @@ profiles:
   strongbox:
     include:
     - default
-  arcnova:
-    include:
-    - default
   axiom:
     include:
     - default
-  direflare:
-    include:
-    - default
-  flywheel:
+  motoroto:
     include:
     - default
   foxfire:
@@ -72,15 +69,6 @@ profiles:
     include:
     - default
   radiance:
-    include:
-    - default
-  ZephyrusG14:
-    include:
-    - default
-  ZephyrusG15:
-    include:
-    - default
-  tvatower:
     include:
     - default
 
