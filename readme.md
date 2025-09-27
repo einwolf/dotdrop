@@ -1,5 +1,7 @@
 # Install instructions
 
+https://dotdrop.readthedocs.io/en/latest/usage/
+
 ## Python dependencies
 
 ```bash
@@ -21,5 +23,6 @@ dnf install -y python3-distro python3-docopt-ng python3-ruamel-yaml python3-jinj
 
 ```bash
 git submodule update --init --recursive
-./dotdrop/dotdrop.sh install
+./dotdrop.sh install
+~/dotdrop/dotdrop.sh install
 ```

@@ -71,4 +71,9 @@ profiles:
   radiance:
     include:
     - default
-
+  nodebox1:
+    include:
+    - default
+  nodebox2:
+    include:
+    - default
