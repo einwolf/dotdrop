@@ -68,7 +68,10 @@ profiles:
   horizon:
     include:
     - default
-  radiance:
+  skyline:
+    include:
+    - default
+  ridgeline:
     include:
     - default
   nodebox1:
