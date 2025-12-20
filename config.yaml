@@ -74,6 +74,9 @@ profiles:
   ridgeline:
     include:
     - default
+  framewhite:
+    include:
+    - default
   nodebox1:
     include:
     - default
